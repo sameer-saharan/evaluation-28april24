@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'DM Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf ') format('truetype');
+  }
+
+@font-face {
+    font-family: 'DM Serif Italic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/DM_Serif_Display/DMSerifDisplay-Italic.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/DM_Sans/static/DMSans-Regular.ttf') format('truetype')
+}

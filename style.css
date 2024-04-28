@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 1440px;
+    /* height: 1904px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Nav Styling*/
+nav {
+    background-color: #434CCC;
+    height: 304px;
+}
+
+.nav-top {
+    display: flex;
+    flex-direction: row;
+}
+.nav-logo {
+    padding-left: 135px;
+    padding-top: 16px;
+    font-family: 'DM Serif';
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 50%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-top: 28px;
+    padding-right: 135px;
+    font-family: 'DM Sans';
+}
+
+.nav-items {
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 24px;
+
+}
+
+.signup-btn {
+    color: #FFFFFF;
+
+}
+
+.nav-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 47px;
+}
+.contact {
+    font-family: 'DM Serif';
+    font-size: 72px;
+    padding-bottom: 10px;
+}
+.nav-text {
+    font-family: 'DM Sans';
+    font-size: 20px;
+}
+
+/*Main*/
+
+main {
+    height: 1248px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-top{
+    padding-top: 64px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1170px; 
+    height: 640px;
+    background-image: url(./media/map.png);
+
+}
+
+
+/*Footer*/
+footer {
+    height: 352px;
+}
