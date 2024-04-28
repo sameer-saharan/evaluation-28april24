@@ -74,10 +74,10 @@ main {
     height: 1248px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .main-top{
     padding-top: 64px;
+    padding-left: 135px;
 }
 
 .map {
@@ -90,8 +90,112 @@ main {
 
 }
 
+.main-bottom {
+    display: flex;
+    flex-direction: row;
+    padding-left: 135px;
+    padding-top: 60px;
+}
+.message-box {
+    width: 834px;
+    padding-right: 65px;
+}
+.msg-text {
+    font-family: 'DM Serif';
+    font-size: 56px;
+    padding-bottom: 28px;
+}
+
+.input-ne {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 28px;
+}
+
+input {
+    border: 1px solid #DADADA
+}
+.name,.email {
+    width: 401px;
+    height: 48px;
+}
+.ne-gap {
+    width: 33px;
+}
+
+.msg-field {
+    width: 834px;
+    height: 144px;
+}
+
+::placeholder {
+    width: 76px;
+    height: 24px;
+    font-family: 'DM Sans';
+    padding-left: 16px;
+    padding-top: 11px;
+}
 
 /*Footer*/
 footer {
     height: 352px;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+}
+.info-text {
+    font-family: 'DM Serif';
+    font-size: 56px;
+    padding-bottom: 28px;
+}
+
+.address, .tel, .mail {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.ad-text {
+    width: 200px;
+    height: 48px;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    color: #00000080;
+    padding-left: 22px;
+}
+.tel-icon {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.tel-text {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    color: #000000;
+    padding-left: 22px;
+    padding-top: 42px;
+}
+.mail-text {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    color: #000000;
+    padding-left: 22px;
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    padding-top: 54px;
+}
+.social-icons {
+    background: #434CCC;
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
